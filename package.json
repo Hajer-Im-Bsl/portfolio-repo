@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Hajer-Im-Bsl.github.io/portfolio-repo",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
